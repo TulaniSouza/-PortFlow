@@ -5,7 +5,7 @@
     box-sizing:border-box;
     font-family: Montserrat;
 }
-.header{
+header{
     display:flex;
     position: fixed;
 }
@@ -13,6 +13,7 @@
     .header{
         display:inline;
         padding-top: 100%;
+        position:none;
     }
 }
 .logo{
@@ -21,7 +22,7 @@
     margin-top: 1.2vh;
     padding:3vh;
     position: fixed;
-    }
+}
 nav{
   display: inline-block;
   padding: 3.5vh 0 0 38vw;
@@ -39,7 +40,6 @@ li{
     padding:3vh;
     transition: all 0.3s;
     color:darkgray;
-   
 }
 li:hover{
     font-weight: 900;
@@ -48,20 +48,24 @@ li:hover{
 }
 @media(max-width:1075px){
     nav{
-        padding: 0.3vh 0 0 18vw;
-        vertical-align:top;
+        width:3.5vw;
+        margin-bottom: 30%;
         margin-left: 70vw;
+        position:relative;
     }
 }
 @media(max-width:1075px){
     li{
         padding: 0.3vh 0 0 18vw;
-        vertical-align:top;
+        margin-bottom: 30%;
         margin-left: 70vw;
+        position:absolute;
 
     }
+}
 main{
-    display:inline;
+    height: 160vh;
+    width:100%;
              
 }
 .palavras{
@@ -95,10 +99,9 @@ h3{
 h3:hover{
     margin-left:4px;
 
-
 }
 .laranja{
-    display: flexbox;
+    display:flexbox;
     
 }
 .fruta{
@@ -107,83 +110,36 @@ h3:hover{
     object-fit:cover;
     
 }
-.caixadamain{
+.relatoriosimg{
+    width: 100%;
+    padding: 5% 0;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .catalogodeimg{
+    width: 83.5%;
+    height: 100%;
+    padding-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
-    margin-top:30px;
-    object-fit: cover;
-    background-size: 17%;
-    justify-content:center;
-    gap:2w;
-}
-.matte{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-    margin-bottom:2%;
-       
-}
-.pao{
-    width:17%;
-    height: 20%;
-    margin-left:1%;
-}
-.pote{
-    width:17%;
-    height: 20%;
-    margin-left:1%;
-
-}
-.cxnopath{
-    display:flex;
-    flex-wrap: wrap;
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-    margin-bottom:2%;
-}
-.nopath{
-    width:17%;
-    height:20%;
-    gap:2w;
+    justify-content: space-between;
     
+        
 }
-.caneca{
-    width:17%;
-    height: 20%;
-    margin-left:1%;
+.imgdamain{
+    width: 24%;
+    height: 100%;
 }
-.desk{
-    width:17%;
-    height: 20%;
-    margin-left:1%;
+    
+
+
+/*.redessocias{
+    display:flex;
 }
-.barrinha{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-}
-.cell{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-}
-.cafe{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-}
-.foto{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-}
-.cataopostal{
-    width:17%;
-    height: 20%;
-    margin-left:2%;
-}
+rodape{
+    margin-bottom: 0%;
+    margin-right:5%;
+    padding:1.5vh 1 1 28vw;
+}*/
