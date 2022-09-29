@@ -5,11 +5,13 @@
     box-sizing:border-box;
     font-family: Montserrat;
 }
+
 header{
     display:flex;
     position:relative;
     
 }
+
 .logo{
     display:flex;
     margin-left: 2vw;
